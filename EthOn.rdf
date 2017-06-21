@@ -2137,7 +2137,6 @@
         </rdfs:subClassOf>
         <suggestedStringRepresentation>Tx</suggestedStringRepresentation>
         <rdfs:comment xml:lang="en">Transactions are Messages between two Accounts that may transfer Ether and may contain a payload. Transactions always originate from an External Account that is controlled by an External Actor by means of a private key.  The execution of a Transaction creates a TransactionReceipt.</rdfs:comment>
-
         <rdfs:label xml:lang="en">Transaction</rdfs:label>
         <ns:term_status>unstable</ns:term_status>
     </owl:Class>
