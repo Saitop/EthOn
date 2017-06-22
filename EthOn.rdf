@@ -1936,9 +1936,9 @@
         <rdfs:subClassOf rdf:resource="http://ethon.consensys.net/AccountConcept"/>
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <suggestedStringRepresentation xml:lang="en">ExternalActor</suggestedStringRepresentation>
-        <rdfs:comment xml:lang="en">A person or other entity able to interface to an Ethereum node, but not existing within Ethereum per se. This person or entity should be able to interact with the Ethereum blockchain using signed transactions, which are the language of the blockchain. Even if the external actor only uses Ethereum once and never again, such an actor will necessarily be attached (as far as EthOn is concerned) to that one account they used at least one time. For this reason we consider the account(s) of External Actors to be intrinsic.
+        <rdfs:comment xml:lang="en">A person or entity able to interface with an Ethereum node, but not existing within Ethereum per se. An external actor controls an External Account and interacts with the Ethereum blockchain by signing messages, including transactions and contract calls, with the private key associated with a public address. Even if an external actor uses Ethereum once and never again, such an actor will necessarily be attached to that one Account. For this reason we consider the account(s) of External Actors to be intrinsic.
 
-It would be easy to suppose that the external actor will always be human, but this will not be the case. In time, various off-chain software tools will initiate on-chain processes. Examples of these off-chain software tools include private Ethereum blockchains, (which are detached by nature from the main chain, and therefore external to it) and off-chain state channels.</rdfs:comment>
+One might suppose that an external actor will always be human, but this will not be the case. In time, various off-chain software tools will initiate on-chain processes. Examples of these off-chain software tools may exist on private Ethereum blockchains, (which are detached by nature from the main chain, and therefore external to it), off-chain state channels, and middleware such as trusted oracles.</rdfs:comment>
         <rdfs:label xml:lang="en">External Actor</rdfs:label>
         <ns:term_status>unstable</ns:term_status>
     </owl:Class>
